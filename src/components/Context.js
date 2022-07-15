@@ -50,7 +50,7 @@ const Context = ({ children }) => {
     const [state, dispatch] = useReducer(reducer, initialState)
 
 
-
+// Fetching data from api for page 1
 
     const getData = (url) => {
         dispatch({type: 'is_Loading'})
@@ -78,6 +78,8 @@ const Context = ({ children }) => {
 
 
 
+
+// Product details page 2 //
 
     const [productId, setproductId] = useState("1")
 

@@ -32,12 +32,6 @@ const Navbar = () => {
 
                 </div>
             </header>
-            {/* <Item3/>
-
-            <Pitem/>
-            <Section2/>
-            <Section3/>
-            <Footer/> */}
         </>
     )
 }
